@@ -1,0 +1,21 @@
+div{
+    front-family:Roboto;
+ 
+ }
+ td{
+     text-align:center;
+     border:1px solid #b0a160;
+     padding: 1px;
+ }
+ th{
+    background-color:#ecce6d;
+ }
+ .increase{
+     background-color: #d6f7d6;
+ }
+ .decrease {
+   background-color: #f5dada;  
+ }
+ .normal{
+     background-color: rgb(203, 231, 255);
+ }
