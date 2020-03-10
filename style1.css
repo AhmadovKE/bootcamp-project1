@@ -106,6 +106,7 @@ padding-top: 20px;
 .coinpict1 img{
     width:316px;
     height:316px;
+    
 
 
 }
@@ -116,9 +117,9 @@ padding-top: 20px;
 }
 
 .coinpict1{
-    width:auto;
-    height:auto; 
-  
+    width:316px;
+    height:316px;
+    top: 20px;
 }
 
 .descrip {
@@ -128,12 +129,26 @@ font-family: Roboto;
 font-style: normal;
 font-size: 14px;
 line-height:125.5%;
-padding-left: 30px;
-padding-right:30px;
-margin-left:10px;
+padding-left: 10px;
+padding-right:10px;
+margin-left:0px;
+align-items: center;
+position:relative;
 }
 
 .coinpict1{
     width:40%;
-    height:50%;
+    height:45%;
+    top:54px;
+}
+.coinpict2{
+    width:40%;
+    height:45%;
+}
+table tr:nth-child(2n+1){
+    background-color:white;
+}
+.pricea span{
+    color: black;
+    font-weight: bold;
 }
