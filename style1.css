@@ -98,11 +98,12 @@ padding-top: 20px;
 }
 .coinpict{ 
     position: relative;
-    padding-top:0;
+    padding-top:0; 
+    
 
 
 }
-
+ 
 .coinpict1 img{
     width:316px;
     height:316px;
@@ -113,7 +114,7 @@ padding-top: 20px;
 .coinpict2 img{
     width:316px;
     height:316px; 
-    position: absolute;
+    position: absolute;     
 }
 
 .coinpict1{
@@ -123,7 +124,7 @@ padding-top: 20px;
 }
 
 .descrip {
-width: 458px;
+width:350px;
 background-color:E1E1E1;
 font-family: Roboto;
 font-style: normal;
@@ -132,18 +133,30 @@ line-height:125.5%;
 padding-left: 10px;
 padding-right:10px;
 margin-left:0px;
-align-items: center;
-position:relative;
-}
+margin-top: 50px;
+padding-right:30px;
+padding-left:30px
 
+}
+.descrip span{
+    color: gray;
+    font-size: 12px;
+
+}
 .coinpict1{
     width:40%;
     height:45%;
-    top:54px;
+   
+    
 }
 .coinpict2{
     width:40%;
     height:45%;
+    padding-top:20px;;
+}
+table{
+    font-size: 10px;
+    margin-bottom: 20px;
 }
 table tr:nth-child(2n+1){
     background-color:white;
@@ -151,4 +164,11 @@ table tr:nth-child(2n+1){
 .pricea span{
     color: black;
     font-weight: bold;
+}
+.pricea{
+    color: gray;
+    font-size: 12px;
+}
+.linktomain{
+   padding-top: 50px;
 }
