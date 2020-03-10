@@ -1,0 +1,139 @@
+.maincont{
+    display:flex;
+    width: 45%;
+    min-width: 400px;
+    justify-content: space-around;
+    background-color: white;
+    
+}
+h1{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 43px;
+    line-height: 50px;
+    margin-left:15px;
+    padding-left:170px;
+}
+.coin{
+    position: relative;
+    margin-right:15px ;
+    width: 172px;
+    height: 172px;
+    
+}
+.coin span{
+    left: 105px;
+    top: 38px;
+    position: absolute;
+    border-radius:100%;
+    background-color:#833AE0;
+    color: white;
+    padding-top:10px;
+    padding-bottom:12px;
+    padding-left:5px;
+    padding-right:3px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+.desc{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    list-style: none;
+    text-decoration: none;
+    margin-left:0px;
+    padding:0; 
+    padding-left: 30px;
+    text-align:left;
+    width: 200px  ;
+    margin-right:10px;
+
+
+}
+h4{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #833AE0;
+    margin-left:0px; 
+    padding-left:30px;
+}
+.price{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+color: #000000;
+padding-top: 20px;
+
+
+}
+.price p{
+    margin: 0;
+}
+.price span{
+    color: gray;
+    
+}
+.mainclass{
+   display: flex;
+   flex-wrap:wrap;
+   justify-content: space-between;
+   width: 80%;
+   margin: auto;
+   min-width: 1100px;
+
+}
+.main{
+    display:flex;
+    width: 80%;
+    justify-content: center;
+}
+.coinpict{ 
+    position: relative;
+    padding-top:0;
+
+
+}
+
+.coinpict1 img{
+    width:316px;
+    height:316px;
+
+
+}
+.coinpict2 img{
+    width:316px;
+    height:316px; 
+    position: absolute;
+}
+
+.coinpict1{
+    width:auto;
+    height:auto; 
+  
+}
+
+.descrip {
+width: 458px;
+background-color:E1E1E1;
+font-family: Roboto;
+font-style: normal;
+font-size: 14px;
+line-height:125.5%;
+padding-left: 30px;
+padding-right:30px;
+margin-left:10px;
+}
+
+.coinpict1{
+    width:40%;
+    height:50%;
+}
